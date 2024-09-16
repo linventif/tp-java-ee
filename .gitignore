@@ -1,0 +1,3 @@
+.vscode
+tomcat.session.sql
+WEB-INF/classes/*.class
