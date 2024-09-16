@@ -114,12 +114,17 @@ public class Select extends HttpServlet {
         }
 
         response.getWriter().println("<h1>Insert</h1>");
-        
+
           // create form with name, pseudo
         response.getWriter().println("<form method='post' action='/tp501/insert' target='_self'>"); // Modified line
         response.getWriter().println("Name: <input type='text' name='name'><br>");
         response.getWriter().println("Pseudo: <input type='text' name='pseudo'><br>");
         response.getWriter().println("<input type='submit' value='Submit'>");
         response.getWriter().println("</form>");
+
+
+        /**
+         * CURL example: curl -X GET http://localhost:8080/tp501/select
+         */
     }
 }

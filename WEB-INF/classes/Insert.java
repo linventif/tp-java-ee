@@ -110,5 +110,9 @@ public class Insert extends HttpServlet {
 
         // redirect to the same page
         response.sendRedirect("/tp501/select");
+
+        /**
+         * CURL example: curl -X POST -d "name=John&pseudo=doe" http://localhost:8080/tp501/insert
+         */
     }
 }
